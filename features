@@ -1,0 +1,9 @@
+Feature: Média de dois números
+  Scenario: Realizar uma média simples
+    Given eu tenho dois números inteiros: 5 e 7
+    When eu faço a media dos dois números inteiros
+    Then o resultado deve ser 6
+  
+    Given eu tenho dois números inteiros: 3 e 5
+    When eu faço a media dos dois números inteiros
+    Then o resultado deve ser 4
